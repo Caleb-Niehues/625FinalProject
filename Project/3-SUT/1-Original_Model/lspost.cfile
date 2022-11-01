@@ -1,0 +1,10 @@
+$# LS-PrePost command file created by LS-PrePost(R) V4.8.25 - 04Jan2022 -64bit-Window
+$# Created on Feb-23-2022 (13:52:55)
+openc keyword "C:\Users\salah\Desktop\home\salahatf\LS-DYNA\3-SUT\1-Original_Model\f800_05-1025.k"
+measure select 1
+measure type 13
+measure activeonly on
+measure axes set 1
+measure inertia all 0 0
+measure select 0
+measure type 0

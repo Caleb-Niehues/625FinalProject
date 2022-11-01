@@ -1,0 +1,13 @@
+Warning - SET_PART 4000001 not found:
+  Referenced in *CONTACT_AUTOMATIC_SURFACE_TO_SURFACE ID = 1
+Warning - SET_PART 2100001 not found:
+  Referenced in *CONTACT_AUTOMATIC_SURFACE_TO_SURFACE ID = 1
+Warning - SET_PART 4000001 not found:
+  Referenced in *CONTACT_AUTOMATIC_SURFACE_TO_SURFACE ID = 2
+Warning - SET_PART 2000837 not found:
+  Referenced in *CONTACT_AUTOMATIC_SURFACE_TO_SURFACE ID = 2
+Warning - SET_PART 4000001 not found:
+  Referenced in *CONTACT_AUTOMATIC_SURFACE_TO_SURFACE ID = 3
+Warning - SET_PART 2000836 not found:
+  Referenced in *CONTACT_AUTOMATIC_SURFACE_TO_SURFACE ID = 3
+Message 0
