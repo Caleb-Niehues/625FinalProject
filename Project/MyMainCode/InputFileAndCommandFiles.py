@@ -1,4 +1,5 @@
 #region ENVIRONMENT SETTING
+#Alex Schexnayder
 import math
 import numpy as num
 import os
