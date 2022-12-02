@@ -5,6 +5,4 @@
 #This means it can be accessed and ALTERED anywhere - be careful when altering
 VERSION=15
 export VERSION
-temp="./625Test.sh"
-#This evals with or without the brackets
-${temp}
+./ExecutionScript.sh

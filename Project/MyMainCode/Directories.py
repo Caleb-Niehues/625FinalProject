@@ -20,7 +20,7 @@ class Directories(object):
         return (finalPath)
     
     def createDirectories(self,purpose):
-        if purpose ==1:
+        if purpose == 1:
             self.parameters.paper1()
         else:
             self.parameters.paper2()
