@@ -1,6 +1,8 @@
 #!/bin/bash
-#import sys - needed for python command line args
-#https://stackoverflow.com/questions/14155669/call-python-script-from-bash-with-argument
-
-echo "Hello World from bash!"
-python3 625Test.py "Hello World from the command line!"
+#/mnt/c/Users/Chenr/source/repos/625FinalProject/project/mymaincode
+VERSION=15
+export VERSION
+echo $VERSION
+#bash 625Test.sh $version
+#calling bash makes a new instance, exec should carry through this existing
+./625Test.sh
