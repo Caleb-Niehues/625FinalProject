@@ -9,7 +9,7 @@ subversion=1 #Might need declared alongside VERSION
 
 for TYPE in "Fixed" "Free" "Segmented"
 do
-    echo "${fakeCommPath} I=\"${InputStart}/SUT/${TYPE}/${VERSION}.${subversion}/SUT_${TYPE}_${VERSION}.k\" NCPU=-8 MEMORY=200000000 jobid=SUT_${TYPE}_${VERSION} &"
+    echo "${fakeCommPath} I=\"${InputStart}/SUT/${TYPE}/${ANGLE}.${subversion}/SUT_${TYPE}_${ANGLE}.k\" NCPU=-8 MEMORY=200000000 jobid=SUT_${TYPE}_${ANGLE} &"
     #The code below should theoretically work, not 100%
     #${commandPath} I=${InputStart}${InputFixed} NCPU=-8 MEMORY=200000000 jobid=SUT_fixed_15 &
 done

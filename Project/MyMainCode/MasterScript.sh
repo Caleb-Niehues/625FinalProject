@@ -1,8 +1,8 @@
 #!/bin/bash
-#/mnt/c/Users/Chenr/source/repos/625FinalProject/project/mymaincode
+#cd /mnt/c/Users/Chenr/source/repos/625FinalProject/project/MyMainCode
 
-#We make VERSION an environemnt variable
+#We make ANGLE an environemnt variable
 #This means it can be accessed and ALTERED anywhere - be careful when altering
-VERSION=15
-export VERSION
+ANGLE=15
+export ANGLE
 ./ExecutionScript.sh
