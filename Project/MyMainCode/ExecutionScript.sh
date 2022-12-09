@@ -7,7 +7,7 @@ NeedToAskHowHeWantsThisSplit="8-Paper1"
 InputStart='/home/salahatf/LS-DYNA/'${NeedToAskHowHeWantsThisSplit}
 subversion=1 #Might need declared alongside VERSION
 
-for TYPE in "Fixed" "Free" "Segmented"
+for TYPE in $barrierBoundary
 do
     echo "${fakeCommPath} I=\"${InputStart}/SUT/${TYPE}/${ANGLE}.${subversion}/SUT_${TYPE}_${ANGLE}.k\" NCPU=-8 MEMORY=200000000 jobid=SUT_${TYPE}_${ANGLE} &"
     #The code below should theoretically work, not 100%
