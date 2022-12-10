@@ -6,19 +6,15 @@
 #https://help.gnome.org/users/zenity/stable/file-selection.html.en
 
 #He has created a parameters object, and then uses the paper1/2 call to set fields
+source Parameters.sh
 
-mkdir $parentPath
-for TYPE in $vehicleType
+for Type in "${vehicleType[@]}"
 do
-    #mkdir
-    for X in $barrierBoundary
+    for Barrier in "${barrierBoundary[@]}"
     do
-        #mkdir 
-        #not sure how he wants this last round - I don't believe 0 is possible
-        for Z in {1..$anglesOfAttack} #does he want this run just once or as is?
+        for Angle in $(seq 1 $anglesOfAttack)
         do
-            echo ${Z}
-            #mkdir
+            mkdir -p $parentPath/$Type/$Barrier/$Angle
         done
     done
 done
