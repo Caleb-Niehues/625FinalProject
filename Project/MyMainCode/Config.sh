@@ -7,5 +7,6 @@ barrierShape=("TL3" "TL4" "TL5") #this is only used in phase 2
 anglesOfAttack=15
 #These are for CreateDirectories.sh
 masterPath=/mnt/c/Users/Chenr/source/repos/625FinalProject/project/MyMainCode
+#This replaces the tkinter file selection
 parentPath=/mnt/c/Users/Chenr/source/Test
 purpose=0
